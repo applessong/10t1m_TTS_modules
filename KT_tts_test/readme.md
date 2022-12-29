@@ -12,7 +12,7 @@
   - 음성 생성에 필요한 데이터를 정의하고 해당 데이터를 삽입해 GenerateVoice.js의 함수 호출
   - GenerateVoice의 클래스 다이어그램
   
-    ![kt_diagram.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/769c23a7-31df-47c0-928a-598ccf9ff680/kt_diagram.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221228T022348Z&X-Amz-Expires=86400&X-Amz-Signature=b03e29029516dd6d537e8a15d4ce4c604b1970326184a0eca2f28190e0756219&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22kt_diagram.png%22&x-id=GetObject)
+    ![kt_diagram.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/769c23a7-31df-47c0-928a-598ccf9ff680/kt_diagram.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221229T033347Z&X-Amz-Expires=86400&X-Amz-Signature=68816df463781e9d9a394137cdf172a89a1372020beac716180c2b5a1f3834bb&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22kt_diagram.png%22&x-id=GetObject)
   - 음성 생성 함수 makeVoice 호출 시 파라미터로 제공하는 데이터 형식
     ```jsx
     let testData = {
@@ -43,7 +43,7 @@
       💡 데이터를 검증하는 로직까지 모두 수행 후 해당 데이터를 파라미터로 API호출
       
       
-      ![kt_logic.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/592b817e-dc6e-45e8-8018-c6385229077b/kt_logic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221228T022517Z&X-Amz-Expires=86400&X-Amz-Signature=f90f5026a35434c9651a5fd605be4345f13f3dc88e10b8765b1c8caa2908130b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22kt_logic.png%22&x-id=GetObject)
+      ![kt_logic.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/592b817e-dc6e-45e8-8018-c6385229077b/kt_logic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221229T033402Z&X-Amz-Expires=86400&X-Amz-Signature=73e0c1398d877073b22da0c33835a18e0e119586fe01b46a71fce5b3eb3f8fb9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22kt_logic.png%22&x-id=GetObject)
 
 - 출력가능한 목소리 코드
 
