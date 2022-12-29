@@ -11,7 +11,7 @@
   - 음성 생성에 필요한 데이터를 정의하고 해당 데이터를 삽입해 GenerateVoice.js의 함수 호출
   - GenerateVoice의 클래스 다이어그램
   
-    ![naver_diagram.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6bbdae25-f29d-4fad-a0eb-3fdc4c617236/naver_diagram.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221228T022632Z&X-Amz-Expires=86400&X-Amz-Signature=d1beafc71df6fd4940522dfbff7491b3f05cda01d5abd5848f35aae4cb9abb39&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22naver_diagram.png%22&x-id=GetObject)
+    ![naver_diagram.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6bbdae25-f29d-4fad-a0eb-3fdc4c617236/naver_diagram.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221229T033412Z&X-Amz-Expires=86400&X-Amz-Signature=f82182cd185268949785d52d1a8362b49af2320c168e760a80403924567cbf09&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22naver_diagram.png%22&x-id=GetObjectt)
   - 음성 생성 함수 makeVoice 호출 시 파라미터로 제공하는 데이터 형식
 
     ```jsx
@@ -40,7 +40,7 @@
 
     💡 데이터를 별도의 데이터 검증 과정 없이 파라미터로 넣어서 API호출만 하면 데이터 검증등은 서버상에서 진행됨
 
-    ![naver_logic.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/abd87a02-378e-4df1-92bc-02c27345d2ee/naver_logic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221228T022636Z&X-Amz-Expires=86400&X-Amz-Signature=7fe0642dcf10fb535542f787c5568a2dd8135fef2490f5e71d14bff4f2f166fc&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22naver_logic.png%22&x-id=GetObject)
+    ![naver_logic.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/abd87a02-378e-4df1-92bc-02c27345d2ee/naver_logic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221229T033414Z&X-Amz-Expires=86400&X-Amz-Signature=37974efe435d914632fb2fa6e16907b58b6b533e816bbf785c4e5d2f30b3d89a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22naver_logic.png%22&x-id=GetObject)
 
 - 출력가능한 목소리코드
 
